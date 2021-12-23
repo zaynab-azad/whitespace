@@ -1,0 +1,54 @@
+.bord {
+  width: 40%;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.bord input {
+  padding-right: 3vw;
+  border: none;
+  outline: none;
+}
+
+.bord input:active {
+  border: none;
+  outline: none;
+}
+.filtering {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.searching {
+  display: flex;
+  justify-content: flex-start;
+
+  column-gap: 60px;
+}
+.sorting,
+.searching select {
+  display: flex;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 15px;
+}
+.searching select {
+  width: 80%;
+  margin-right: 10vw;
+}
+.sorting select {
+  border: none;
+  outline: none;
+}
+.sorting select:active {
+  border: none;
+  outline: none;
+}
+.sorting .sort {
+  border-right: 1px solid #d1d1d1;
+  padding-right: 0.5vw;
+  margin-right: 0.5vw;
+}

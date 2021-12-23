@@ -1,0 +1,87 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 16%);
+}
+
+.nav-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5%;
+}
+.iconLog {
+  display: flex;
+  gap: 3vw;
+}
+.iconLog .invest {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.iconLog .investbut {
+  background-color: #d91323;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.logo img {
+  width: 100%;
+}
+.searchBar {
+  width: 40%;
+}
+
+.searchBar input {
+  border: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+}
+.searchBar input[placeholder] {
+  padding-left: 15px;
+  color: #d1d1d1 !important;
+}
+.searchBarEx {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.searchBar button {
+  background-color: #d91323;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.menu {
+  display: flex;
+}
+.menu i {
+  font-size: 2rem;
+  color: #2c463f;
+}
+.menu-img {
+  margin-right: 10px;
+  position: relative;
+}
+.menu div::after {
+  content: "1";
+  color: #ffffff;
+  background-color: #d91323;
+  border-radius: 10px;
+  position: absolute;
+  top: -7px;
+  right: -6.1px;
+  font-size: 1rem;
+  padding: 0 6px;
+}

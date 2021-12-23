@@ -1,0 +1,52 @@
+@font-face {
+  font-family: TTHoves-Bold;
+  src: url(font/TTHoves-Bold.eot) format("eot");
+  src: url(font/TTHoves-Bold.ttf) format("ttf");
+  src: url(font/TTHoves-Bold.woff) format("woff");
+  src: url(font/TTHoves-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: TTHoves-Reg;
+  src: url(font/TTHoves-Regular.eot) format("eot");
+  src: url(font/TTHoves-Regular.ttf) format("ttf");
+  src: url(font/TTHoves-Regular.woff) format("woff");
+  src: url(font/TTHoves-Regular.woff2) format("woff2");
+}
+
+.contact {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: [first] 3fr [line2] 1fr;
+  background-color: #f8f8f8;
+  padding: 2rem 7rem 4rem;
+  border-radius: 12px;
+  margin-top: 200px;
+}
+
+.text {
+  font-family: TTHoves-Reg;
+}
+.text h2 {
+  font-family: TTHoves-Bold;
+  font-size: 2.7rem;
+}
+.text p {
+  color: #959595;
+}
+.text button {
+  border: none;
+  outline: none;
+  background-color: #d91323;
+  color: white;
+  font-family: TTHoves-Reg;
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 1vw;
+}
+
+.image {
+  margin-top: 2.5vw;
+  width: 50%;
+}

@@ -1,0 +1,159 @@
+@font-face {
+  font-family: TTHoves-Bold;
+  src: url(font/TTHoves-Bold.eot) format("eot");
+  src: url(font/TTHoves-Bold.ttf) format("ttf");
+  src: url(font/TTHoves-Bold.woff) format("woff");
+  src: url(font/TTHoves-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: TTHoves-Reg;
+  src: url(font/TTHoves-Regular.eot) format("eot");
+  src: url(font/TTHoves-Regular.ttf) format("ttf");
+  src: url(font/TTHoves-Regular.woff) format("woff");
+  src: url(font/TTHoves-Regular.woff2) format("woff2");
+}
+
+.footer {
+  margin-top: 100px !important;
+  width: 100%;
+  margin: auto;
+
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: [first] 2fr [line2] 1fr [line3] 1fr [line4] 2fr;
+  padding: 6rem 6rem 3rem 6rem;
+  font-family: TTHoves-Reg;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  line-height: 2.5;
+  color: #2c463f;
+  font-family: TTHoves-Reg;
+}
+.infoCompany a {
+  display: block;
+  font-family: TTHoves-Bold;
+  text-decoration: none;
+  color: #2c463f;
+  margin-top: -10px;
+}
+.infoCompany p {
+  margin: 2vh 0;
+  color: #2c463f;
+}
+.infoCompany select {
+  color: #2c463f;
+  margin-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+.infoCompany select:active {
+  border: none;
+  outline: none;
+}
+.infoCompany img {
+  width: 40%;
+}
+hr {
+  width: 60%;
+  height: 1px;
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5vh 0;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  color: #959595;
+  font-size: 17px;
+  width: 210px;
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: TTHoves-Reg;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.social-media li i {
+  color: #959595;
+}
+.text {
+  font-family: TTHoves-Reg;
+}
+.text h2 {
+  font-family: TTHoves-Bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.text p {
+  color: #959595;
+}
+.text button {
+  border: none;
+  outline: none;
+  background-color: #d91323;
+  color: white;
+  font-family: TTHoves-Reg;
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 1vw;
+}
+
+.image {
+  margin-top: 2.5vw;
+  width: 50%;
+}
+
+.getEmail button,
+input {
+  border: none;
+  outline: none;
+}
+.getEmail button {
+  background-color: transparent;
+  color: #2c463f;
+  font-family: TTHoves-Bold;
+  font-weight: 700;
+  padding-left: 15px;
+  margin: 20px;
+  border-left: 0.75px solid #9595955d;
+}
+.email-notfy {
+  margin: 20px;
+}
+.getEmail form {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: white;
+  border-radius: 12px;
+}
+ul b {
+  color: #2c463f;
+}
+ul .first-child {
+  margin-top: 30px;
+}
